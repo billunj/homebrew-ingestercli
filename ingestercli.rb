@@ -5,8 +5,8 @@
 class IngesterLambdaGui < Formula
   desc "Ingester Lambda CLI"
   homepage "https://bitbucket.org/infomaker/"
-  url  "https://s3-eu-west-1.amazonaws.com/cca-dev-bill-temp/ingester-cli/ingester-cli-2020-10-06T171706-399904c.tar.gz"
-  sha256 "0285412c73f9e2110dc2ad09d0523026483f3a495498c8e23bf69e4c354bd067"
+  url  "https://s3-eu-west-1.amazonaws.com/cca-dev-bill-temp/ingester-cli/ingester-cli-2020-10-08T164329-3b45560.tar.gz"
+  sha256 "4118b0311b34811a09889b3dd42221a0f48c7cdb71b54ba051d6b1c611582837"
 
   def install
     bin.install "ingester-cli"
