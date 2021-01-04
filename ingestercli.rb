@@ -2,11 +2,11 @@
 # frozen_string_literal: true
 
 # top-level class comment
-class IngesterLambdaGui < Formula
+class IngesterLambdaCLI < Formula
   desc "Ingester Lambda CLI"
   homepage "https://bitbucket.org/infomaker/"
-  url  "https://s3-eu-west-1.amazonaws.com/cca-dev-bill-temp/ingester-cli/ingester-cli-2020-10-12T132556-v0.0.1.tar.gz"
-  sha256 "422c9a55d62dcf0592637192afe374731ea295c265c80dd938b2fcf1ec3ca4bd"
+  url  "https://s3-eu-west-1.amazonaws.com/cca-dev-bill-temp/ingester-cli/ingester-cli-2021-01-04T181447-adf84ca.tar.gz"
+  sha256 "32b6f76a5593a62fa75d145a62be02a3a3350ea234b95c6a780018d05ac9fc6d"
 
   def install
     bin.install "ingester-cli"
